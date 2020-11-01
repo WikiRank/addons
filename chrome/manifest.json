@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "WikiRank",
+  "version": "1.0",
+
+  "description": "Assessing quality and popularity of the Wikipedia article from current window tab",
+
+  "icons": {
+    "48": "icons/wikirank-48.png",
+    "96": "icons/wikirank-96.png"
+  },
+"browser_action": {
+  "default_icon": "icons/wikirank-96.png",
+  "default_title": "WikiRank assessment"
+},
+ "background": {
+    "scripts": ["wikirank.js"],
+    "persistent": false
+  },
+"permissions": [
+    "tabs"
+  ]
+
+}
