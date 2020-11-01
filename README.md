@@ -1,1 +1,1 @@
-# addons
+# Add-ons for browsers
